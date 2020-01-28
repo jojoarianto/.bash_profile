@@ -59,7 +59,7 @@ alias run-portainer="docker run -d -p 8000:8000 -p 9000:9000 -v /var/run/docker.
 
 
 # for color in terminal
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'export PATH="/usr/local/opt/php@7.2/bin:$PATH"
